@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -6,10 +7,7 @@
  */
 int main(void)
 {
-	char y;
-	
-	int i;
-	
+	int i, y;
 	for (i = 0; i < 10; i++)
 	{
 		putchar (i + '0');
@@ -18,7 +16,7 @@ int main(void)
 	{
 		putchar (y);
 	}
-putchar('\n');
 
+putchar('\n');
 return (0);
 }
